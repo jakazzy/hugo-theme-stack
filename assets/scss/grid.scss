@@ -31,13 +31,13 @@
             }
         }
 
-        @media (min-width: $on-desktop-large) {
-            max-width: 1536px;
+        // @media (min-width: $on-desktop-large) {
+        //     max-width: 1536px;
 
-            .left-sidebar {
-                width: 15%;
-            }
-        }
+        //     .left-sidebar {
+        //         width: 15%;
+        //     }
+        // }
     }
 
     &.compact {
@@ -61,9 +61,9 @@
             }
         }
 
-        @media (min-width: $on-desktop-large) {
-            max-width: 1300px;
-        }
+        // @media (min-width: $on-desktop-large) {
+        //     max-width: 1300px;
+        // }
     }
 }
 

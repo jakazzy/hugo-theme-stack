@@ -59,9 +59,9 @@
                 box-shadow: var(--shadow-l2);
             }
 
-            @media (max-width: $on-desktop-large) {
-                font-size: 1.4rem;
-            }
+            // @media (max-width: $on-desktop-large) {
+            //     font-size: 1.4rem;
+            // }
 
             span.year {
                 flex: 1;

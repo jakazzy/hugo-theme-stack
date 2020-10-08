@@ -15,10 +15,10 @@
     --sidebar-avatar-size: 150px;
     --sidebar-element-separation: 25px;
 
-    @media (max-width: $on-desktop-large) {
-        --sidebar-avatar-size: 120px;
-        --sidebar-element-separation: 20px;
-    }
+    // @media (max-width: $on-desktop-large) {
+    //     --sidebar-avatar-size: 120px;
+    //     --sidebar-element-separation: 20px;
+    // }
 
     @media (max-width: $on-phone) {
         width: 100%;
@@ -90,11 +90,11 @@
             background-color: var(--card-background);
             box-shadow: var(--shadow-l2);
 
-            @media (max-width: $on-desktop-large) {
-                width: 40px;
-                height: 40px;
-                line-height: 40px;
-            }
+            // @media (max-width: $on-desktop-large) {
+            //     width: 40px;
+            //     height: 40px;
+            //     line-height: 40px;
+            // }
         }
     }
 
@@ -103,9 +103,9 @@
         font-size: 2.4rem;
         margin: 0;
 
-        @media (max-width: $on-desktop-large) {
-            font-size: 2rem;
-        }
+        // @media (max-width: $on-desktop-large) {
+        //     font-size: 2rem;
+        // }
     }
 
     .site-description {
@@ -114,9 +114,9 @@
         margin: 10px 0;
         font-size: 1.8rem;
 
-        @media (max-width: $on-desktop-large) {
-            font-size: 1.6rem;
-        }
+        // @media (max-width: $on-desktop-large) {
+        //     font-size: 1.6rem;
+        // }
     }
 }
 

@@ -31,9 +31,9 @@
                     height: 150px;
                 }
 
-                @media (min-width: $on-desktop-large) {
-                    height: 250px;
-                }
+                // @media (min-width: $on-desktop-large) {
+                //     height: 250px;
+                // }
             }
         }
 
@@ -80,9 +80,9 @@
     color: var(--card-text-color-main);
     font-size: 2.2rem;
 
-    @media (min-width: $on-desktop-large) {
-        font-size: 2.4rem;
-    }
+    // @media (min-width: $on-desktop-large) {
+    //     font-size: 2.4rem;
+    // }
 
     a {
         color: var(--card-text-color-main);
@@ -104,9 +104,9 @@
     line-height: 1.5;
 
     font-size: 1.75rem;
-    @media (min-width: $on-desktop-large) {
-        font-size: 2rem;
-    }
+    // @media (min-width: $on-desktop-large) {
+    //     font-size: 2rem;
+    // }
 }
 
 .article-time {
